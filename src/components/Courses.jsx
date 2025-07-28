@@ -1,5 +1,5 @@
 import React from 'react';
-import { COURSE_SERVICES } from '../assets/assets'; // Make sure this is defined
+import { COURSE_SERVICES } from '../assets/assets'; 
 
 const Courses = () => {
   return (

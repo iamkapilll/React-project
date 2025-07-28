@@ -1,5 +1,5 @@
 import React from 'react';
-import { PROGRAM_PROJECTS } from '../assets/assets'; // Make sure to define this
+import { PROGRAM_PROJECTS } from '../assets/assets'; 
 
 const Programs = () => {
   return (
