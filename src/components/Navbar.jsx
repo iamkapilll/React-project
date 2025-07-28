@@ -16,7 +16,7 @@ const Navbar = () => {
     },[showMobileMenu])
   return (
     <div className='absolute top-0 left-0 w-full z-0  '>
-        <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent border-b-2'>
+        <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent border-b-2 border-white '>
             <img className='w-12 h-auto md:w-16 lg:w-20 object-contain rounded-full' src={assets.logo} alt="" />
             <ul className='hidden md:flex gap-7 text-gray-800 font-boldrounded-4xl px-12 py-3 bg-neutral-400 rounded-2xl'>
                 <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
