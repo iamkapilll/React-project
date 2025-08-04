@@ -70,6 +70,7 @@ const ContactUs = () => {
           <div>
             <p className="text-lg font-semibold">{CONTACT_INFO.address.label}</p>
             <p className="text-neutral-600">{CONTACT_INFO.address.value}</p>
+            <p className="text-neutral-600">{CONTACT_INFO.address.city}</p>
           </div>
         </div>
       </div>
